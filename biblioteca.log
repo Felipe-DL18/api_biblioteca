@@ -2847,3 +2847,59 @@ with app.app_context(). See the documentation for more information.
 2025-11-26 12:13:33,920 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2025-11-26 12:13:33,920 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 16:36:40,696 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-11 16:36:40,696 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-11 16:37:28,081 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-02-11 16:37:28,084 - apscheduler.scheduler - INFO - Added job " verificar emprestimo proximo a vencer" to job store "default"
+2026-02-11 16:37:28,085 - apscheduler.scheduler - INFO - Scheduler started
+2026-02-11 16:37:28,086 - services.agendar_service - INFO - deu certo
+2026-02-11 16:37:28,087 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 16:37:28] "[33mGET / HTTP/1.1[0m" 404 -
+2026-02-11 16:37:28,234 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 16:37:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-11 16:38:01,013 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:37:58 -03)" was missed by 0:00:02.932507
+2026-02-11 16:38:31,015 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:38:58 -03)" was missed by 0:00:02.934022
+2026-02-11 16:39:01,010 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:39:28 -03)" was missed by 0:00:02.929287
+2026-02-11 16:39:28,082 - apscheduler.executors.default - INFO - Running job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:39:58 -03)" (scheduled at 2026-02-11 16:39:28.081388-03:00)
+2026-02-11 16:39:28,082 - services.agendar_service - INFO - verificando emprestimos prestes a vencer
+2026-02-11 16:39:28,101 - services.notificacao_service - INFO - Notificações enviadas: 0
+2026-02-11 16:39:28,102 - apscheduler.executors.default - INFO - Job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:39:58 -03)" executed successfully
+2026-02-11 16:40:01,017 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:40:28 -03)" was missed by 0:00:02.936168
+2026-02-11 16:40:31,015 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:40:58 -03)" was missed by 0:00:02.933573
+2026-02-11 16:41:01,014 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:41:28 -03)" was missed by 0:00:02.933341
+2026-02-11 16:41:31,013 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:41:58 -03)" was missed by 0:00:02.931883
+2026-02-11 16:42:00,997 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:42:28 -03)" was missed by 0:00:02.915706
+2026-02-11 16:42:17,260 - werkzeug - INFO - 127.0.0.1 - - [11/Feb/2026 16:42:17] "GET /editoras HTTP/1.1" 200 -
+2026-02-11 16:42:31,027 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:42:58 -03)" was missed by 0:00:02.946067
+2026-02-11 16:42:58,082 - apscheduler.executors.default - INFO - Running job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:43:28 -03)" (scheduled at 2026-02-11 16:42:58.081388-03:00)
+2026-02-11 16:42:58,082 - services.agendar_service - INFO - verificando emprestimos prestes a vencer
+2026-02-11 16:42:58,084 - services.notificacao_service - INFO - Notificações enviadas: 0
+2026-02-11 16:42:58,084 - apscheduler.executors.default - INFO - Job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:43:28 -03)" executed successfully
+2026-02-11 16:43:31,016 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:43:58 -03)" was missed by 0:00:02.935043
+2026-02-11 16:44:01,021 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:44:28 -03)" was missed by 0:00:02.938814
+2026-02-11 16:44:31,013 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:44:58 -03)" was missed by 0:00:02.932389
+2026-02-11 16:45:01,017 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:45:28 -03)" was missed by 0:00:02.936220
+2026-02-11 16:45:31,011 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:45:58 -03)" was missed by 0:00:02.930390
+2026-02-11 16:45:58,081 - apscheduler.executors.default - INFO - Running job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:46:28 -03)" (scheduled at 2026-02-11 16:45:58.081388-03:00)
+2026-02-11 16:45:58,082 - services.agendar_service - INFO - verificando emprestimos prestes a vencer
+2026-02-11 16:45:58,083 - services.notificacao_service - INFO - Notificações enviadas: 0
+2026-02-11 16:45:58,083 - apscheduler.executors.default - INFO - Job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:46:28 -03)" executed successfully
+2026-02-11 16:46:31,016 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:46:58 -03)" was missed by 0:00:02.934866
+2026-02-11 16:47:01,012 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:47:28 -03)" was missed by 0:00:02.930813
+2026-02-11 16:47:31,016 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:47:58 -03)" was missed by 0:00:02.935466
+2026-02-11 16:48:01,013 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:48:28 -03)" was missed by 0:00:02.931783
+2026-02-11 16:48:31,014 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:48:58 -03)" was missed by 0:00:02.932944
+2026-02-11 16:49:01,014 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:49:28 -03)" was missed by 0:00:02.933240
+2026-02-11 16:49:28,081 - apscheduler.executors.default - INFO - Running job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:49:58 -03)" (scheduled at 2026-02-11 16:49:28.081388-03:00)
+2026-02-11 16:49:28,082 - services.agendar_service - INFO - verificando emprestimos prestes a vencer
+2026-02-11 16:49:28,083 - services.notificacao_service - INFO - Notificações enviadas: 0
+2026-02-11 16:49:28,084 - apscheduler.executors.default - INFO - Job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:49:58 -03)" executed successfully
+2026-02-11 16:50:01,014 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:50:28 -03)" was missed by 0:00:02.932733
+2026-02-11 16:50:31,013 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:50:58 -03)" was missed by 0:00:02.932111
+2026-02-11 16:51:01,015 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:51:28 -03)" was missed by 0:00:02.934089
+2026-02-11 16:51:31,015 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:51:58 -03)" was missed by 0:00:02.934356
+2026-02-11 16:52:01,012 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:52:28 -03)" was missed by 0:00:02.931107
+2026-02-11 16:52:31,015 - apscheduler.executors.default - WARNING - Run time of job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:52:58 -03)" was missed by 0:00:02.933694
+2026-02-11 16:52:58,082 - apscheduler.executors.default - INFO - Running job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:53:28 -03)" (scheduled at 2026-02-11 16:52:58.081388-03:00)
+2026-02-11 16:52:58,082 - services.agendar_service - INFO - verificando emprestimos prestes a vencer
+2026-02-11 16:52:58,083 - services.notificacao_service - INFO - Notificações enviadas: 0
+2026-02-11 16:52:58,083 - apscheduler.executors.default - INFO - Job " verificar emprestimo proximo a vencer (trigger: interval[0:00:30], next run at: 2026-02-11 16:53:28 -03)" executed successfully
